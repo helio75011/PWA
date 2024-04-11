@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chercher Films et Séries</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<div class="container">
+    <h1>Cherchez vos Films et Séries préférés</h1>
+    <!-- Formulaire de recherche -->
+    <form id="searchForm">
+        <input type="text" class="form-control" id="searchText" placeholder="Entrez le nom d'un film ou d'une série">
+        <button type="submit" class="btn btn-primary mt-2">Chercher</button>
+    </form>
+    <div id="results"></div>
+</div>
+
+<!-- Scripts -->
+<script src="app.js"></script>
+</body>
+</html>
